@@ -72,7 +72,7 @@ public class KSMEPlayer: NSObject {
     public private(set) var playableTime = TimeInterval(0)
     public weak var delegate: MediaPlayerDelegate?
     public private(set) var isReadyToPlay = false
-    public var allowsExternalPlayback: Bool = false
+    public var allowsExternalPlayback: Bool = true
     public var usesExternalPlaybackWhileExternalScreenIsActive: Bool = false
 
     public var playbackRate: Float = 1 {
